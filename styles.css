@@ -601,15 +601,6 @@ textarea,
   justify-content: space-between;
   flex-wrap: wrap;
 }
-@keyframes modal {
-  from {
-    transform: scale(0.2);
-  }
-to-transform: scale(1);
-}
-* {
-  box-sizing: border-box;
-}
 html {
   height: 100%;
 }
