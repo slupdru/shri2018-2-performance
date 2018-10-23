@@ -2,7 +2,6 @@
 	font-family: 'PT Sans';
 	src: url('PTS55F_W.eot');
   src: local('PT Sans'), url('PTS55F_W.woff') format('woff');
-  font-display: optional;
 }
 
 @font-face {
@@ -11,14 +10,12 @@
 	font-weight: bold;
 	src: local('PT Sans Bold') url('PTS75F_w.eot');
   src: local('PT Sans Bold'), url('PTS75F_W.woff') format('woff');
-  font-display: optional;
 }
 
 @font-face {
 	font-family: 'PT Sans Narrow';
 	src: url('PTN57F_W.eot');
   src: local('PT Sans Narrow'), url('PTN57F_W.woff') format('woff');
-  font-display: optional;
 }
 
 @font-face {
@@ -26,5 +23,4 @@
 	font-weight: bold;
 	src: url('PTN77F_W.eot');
   src: local('PT Sans Narrow Bold'), url('PTN77F_W.woff') format('woff');
-  font-display: optional;
 }
