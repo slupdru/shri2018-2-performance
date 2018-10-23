@@ -1,14 +1,17 @@
 @font-face {
 	font-family: 'PT Sans';
 	font-style: normal;
-	font-weight: bold;
-	src: url('pts75f_w.eot');
-	src: local('PT Sans Bold'), url('PTS75F_W.woff') format('woff');
+  font-weight: bold;
+  src: local('PT Sans Bold') url('PTS75F_W.eot') format('eot');
+  src: local('PT Sans Bold'), url('PTS75F_W.woff') format('woff');
+  font-display: optional;
+
 }
 
 @font-face {
 	font-family: 'PT Sans Narrow';
 	font-weight: bold;
-	src: url('ptn77f_w.eot');
-	src: local('PT Sans Narrow Bold'), url('PTN77F_W.woff') format('woff');
+  src: local('PT Sans Narrow Bold'), url('PTN77F_W.woff') format('woff');
+  src: local('PT Sans Narrow Bold') url('PTN77F_W.eot') format('eot');
+  font-display: optional;
 }

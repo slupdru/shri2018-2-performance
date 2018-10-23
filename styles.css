@@ -337,8 +337,6 @@
   background: url("assets/sh.webp") center center/cover no-repeat;
 }
 .main__greeting {
-  transform: translateY(2px);
-  word-spacing: 0.5px;
   margin-top: 6px;
   font-size: 27px;
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -587,7 +585,6 @@ html {
 }
 .weather__item-temp {
   font-size: 36px;
-  transform: translateY(3px);
   font-weight: 700;
   line-height: 1.16;
   font-family: "PT Sans Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
