@@ -3,13 +3,13 @@
 	font-style: normal;
 	font-weight: bold;
 	src: local('PT Sans Bold') url('./fonts/PTS75F_W.eot');
-  src: local('PT Sans Bold'), url('./fonts/PTS75F_W.woff') format('woff');
+  src: local('PT Sans Bold'), url('./fonts/pt-sans-v9-cyrillic-700.woff2') format('woff2');
 }
 @font-face {
 	font-family: 'PT Sans Narrow';
 	font-weight: bold;
 	src: url('./fonts/PTN77F_W.eot');
-  src: local('PT Sans Narrow Bold'), url('./fonts/PTN77F_W.woff') format('woff');
+  src: local('PT Sans Narrow Bold'), url('./fonts/pt-sans-narrow-v9-cyrillic-700.woff2') format('woff2');
 }
 article,
 aside,
