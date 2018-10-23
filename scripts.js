@@ -235,9 +235,4 @@ arrowLeftScens.addEventListener('click', function () {
 const selectButtonText = document.querySelector('.filter__select-button .button__text');
 const popup = document.querySelector('.filter__select-popup');
 
-let widths = '';
-window.addEventListener('scroll', function() {
-    widths += document.querySelectorAll('body')[0].offsetWidth;
-    document.querySelector('.stats').innerHTML = widths;
-});
 
