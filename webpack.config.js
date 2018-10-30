@@ -59,12 +59,17 @@ module.exports = {
           test: /\.css$/,
           use: [
             MiniCssExtractPlugin.loader,
-            'css-loader',
+            {
+              loader: 'css-loader',
+              options: {
+                // url: false,
+                // import:false
+              }
+            }
           ],
         },
       {
         test: /\.(png|svg|jpg|gif|webp|woff2)$/,
-        include: path.join(__dirname),
         exclude: /(node_modules)/,
         loader: 'url-loader',
     },
