@@ -4,12 +4,18 @@ const path = require('path');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const inProduction = process.env.NODE_ENV === 'production';
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-
+const BrotliPlugin = require('brotli-webpack-plugin');
 const plugins = [
   new MiniCssExtractPlugin({
     filename: '[name].css',
     chunkFilename: '[id].css',
   }),
+  new BrotliPlugin({
+    asset: '[path].br[query]',
+    test: /\.(js|css|html|svg)$/,
+    threshold: 10240,
+    minRatio: 0.8
+  })
 ];
 let optimization={};
 if (inProduction) {
@@ -62,7 +68,7 @@ module.exports = {
             {
               loader: 'css-loader',
               options: {
-                url: false,
+                // url: false,
               }
             }
           ],
