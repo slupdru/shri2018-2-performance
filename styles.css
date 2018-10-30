@@ -2,12 +2,12 @@
 	font-family: 'PT Sans';
 	font-style: normal;
   font-weight: bold;
-  src: local('PT Sans Bold'), url('./fonts/pt-sans-v9-cyrillic-700.woff2') format('woff2');
+  src: local('PT Sans Bold'), url('/fonts/pt-sans-v9-cyrillic-700.woff2') format('woff2');
 }
 @font-face {
 	font-family: 'PT Sans Narrow';
 	font-weight: bold;
-  src: local('PT Sans Narrow Bold'), url('./fonts/pt-sans-narrow-v9-cyrillic-700.woff2') format('woff2');
+  src: local('PT Sans Narrow Bold'), url('/fonts/pt-sans-narrow-v9-cyrillic-700.woff2') format('woff2');
 }
 article,
 aside,
@@ -213,14 +213,14 @@ textarea,
   left: 14px;
   width: 30px;
   height: 30px;
-  background: url("assets/adjust-bar_light_from.svg") center center/contain no-repeat;
+  background: url("/assets/adjust-bar_light_from.svg") center center/contain no-repeat;
 }
 .adjust-bar__container_theme_light::after {
   top: 13px;
   right: 13px;
   width: 34px;
   height: 34px;
-  background: url("assets/adjust-bar_light_to.svg") center center/contain no-repeat;
+  background: url("/assets/adjust-bar_light_to.svg") center center/contain no-repeat;
 }
 .adjust-bar_theme_temp {
   background-image: linear-gradient(90deg, #068fff 0%, #ffd800 50%, #f76b1c 100%);
@@ -444,7 +444,7 @@ textarea,
   width: 108px;
   height: 27px;
   position: relative;
-  background-image: url("./assets/logo.webp");
+  background-image: url("/assets/logo.webp");
   background-repeat: no-repeat;
   background-position: left top;
   background-size: cover;
@@ -475,7 +475,7 @@ textarea,
   padding: 0 20px 0 25px;
   display: flex;
   justify-content: space-between;
-  background: url("assets/sh.webp") center center/cover no-repeat;
+  background: url("/assets/sh.webp") center center/cover no-repeat;
 }
 .main__greeting {
   margin-top: 6px;
@@ -565,12 +565,12 @@ textarea,
   padding-right: 32px;
 }
 .modal__value_temp {
-  background: url("assets/panel__icon_temp_on.svg") calc(100% + 10px) 0%/contain no-repeat;
+  background: url("/assets/panel__icon_temp_on.svg") calc(100% + 10px) 0%/contain no-repeat;
 }
 .modal__value_light {
   height: 45px;
   padding-right: 45px;
-  background: url("assets/panel__icon_light_off.svg") right center/contain no-repeat;
+  background: url("/assets/panel__icon_light_off.svg") right center/contain no-repeat;
 }
 .modal__status {
   margin-bottom: 20px;
@@ -736,24 +736,24 @@ html {
   padding-right: 31px;
 }
 .weather__item_cloud-drizzle {
-  background: url("assets/cloud-drizzle.webp") 100% 70%/26px no-repeat;
+  background: url("/assets/cloud-drizzle.webp") 100% 70%/26px no-repeat;
 }
 .panel__icon {
   width: 24px;
   height: 24px;
 }
 .panel__icon_temp_off {
-  background: url("assets/panel__icon_temp_off.svg") center center/contain no-repeat;
+  background: url("/assets/panel__icon_temp_off.svg") center center/contain no-repeat;
 }
 .panel__icon_temp_on {
-  background: url("assets/panel__icon_temp_on.svg") center center/contain no-repeat;
+  background: url("/assets/panel__icon_temp_on.svg") center center/contain no-repeat;
 }
 .panel__icon_light_off {
-  background: url("assets/panel__icon_light_off.svg") center center/contain no-repeat;
+  background: url("/assets/panel__icon_light_off.svg") center center/contain no-repeat;
 }
 .panel__icon_light_on {
-  background: url("assets/panel__icon_light_on.svg") center center/contain no-repeat;
+  background: url("/assets/panel__icon_light_on.svg") center center/contain no-repeat;
 }
 .panel__icon_clock {
-  background: url("assets/panel__icon_clock.svg") center center/contain no-repeat;
+  background: url("/assets/panel__icon_clock.svg") center center/contain no-repeat;
 }
